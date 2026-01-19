@@ -117,7 +117,6 @@
 }
 
 
-
 /* Hero Section */
 .hero-section {
   height: 760px;
@@ -203,7 +202,7 @@
 .cta-btn {
   display: flex;
   align-items: center;
-  gap: 6px; 
+  gap: 6px;
   border-radius: 625rem; 
   padding: 12px 20px;
   font-weight: 600;
@@ -228,7 +227,7 @@
   color: #00ff88;
 }
 
-/* Responsive for mobile */
+/* Responsive for Mobile */
 @media (max-width: 576px) {
   .hero-section {
     height: 466px;
@@ -264,9 +263,12 @@
     right: -3%;
   }
 
+  /* Buttons stay side by side on mobile */
   .hero-buttons {
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 8px; 
+    flex-wrap: wrap; 
   }
 
   .cta-btn {
@@ -274,4 +276,3 @@
     padding: 10px 16px;
   }
 }
-
