@@ -16,71 +16,97 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body class="inter-font">
+    <!-- Header -->
     <header class="site-header">
-  <nav class="top-nav wrapper">
-    <!-- Brand -->
-    <div class="brand">
-      <h2>
-        <span class="brand-light">Tech</span><span class="brand-gradient">Wave</span>
-      </h2>
-    </div>
+      <nav class="top-nav wrapper">
+        <div class="brand">
+          <h2><span class="brand-light">Tech</span><span class="brand-gradient">Wave</span></h2>
+        </div>
 
-    <!-- Menu -->
-    <ul class="nav-links">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Episodes</a></li>
-      <li><a href="#">Host</a></li>
-    </ul>
+        <ul class="nav-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">Host</a></li>
+        </ul>
 
-    <!-- Action Button -->
-    <div class="nav-action">
-      <button class="primary-btn">
-        Subscribe
-        <img src="./assets/Vector.png" alt="" />
-      </button>
-    </div>
+        <div class="nav-action">
+          <button class="primary-btn">
+            Subscribe
+            <img src="./assets/Vector.png" alt="" />
+          </button>
+        </div>
 
-    <!-- Mobile Icon -->
-    <div class="menu-toggle">
-      <i class="fa-solid fa-bars"></i>
-    </div>
-  </nav>
-</header>
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
 
-<main>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-wrapper wrapper">
+          <div class="circle-container">
+            <div class="podcast-circle">
+              <img src="./assets/microphone.png" alt="Podcast Microphone" />
+              <span class="new-badge">NEW</span>
+            </div>
+          </div>
 
-    <section class="hero-section">
-  <div class="hero-wrapper wrapper">
-    <!-- Podcast Circle -->
-    <div class="circle-container">
-      <div class="podcast-circle">
-        <img src="./assets/microphone.png" alt="Podcast Microphone" />
-        <span class="new-badge">NEW</span>
-      </div>
-    </div>
+          <div class="hero-text">
+            <h2>TechWave</h2>
+            <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
 
-    <!-- Hero Content -->
-    <div class="hero-text">
-      <h2>TechWave</h2>
-      <p>
-        Your daily dose of tech insights, productivity hacks, and personal growth
-      </p>
+            <div class="hero-buttons">
+              <button class="cta-btn spotify-btn">
+                <img src="./assets/spotify.png" alt="Spotify" />
+                Listen on Spotify
+              </button>
+              <button class="cta-btn subscribe-btn">
+                <img src="./assets/message.png" alt="Subscribe" />
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div class="hero-buttons">
-        <button class="cta-btn spotify-btn">
-          <img src="./assets/spotify.png" alt="Spotify" />
-          Listen on Spotify
-        </button>
-        <button class="cta-btn subscribe-btn">
-          <img src="./assets/message.png" alt="Subscribe" />
-          Subscribe
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
+      <!-- About Section -->
+      <section class="podcast-about">
+        <div class="podcast-wrapper container-size">
+          <div class="podcast-info">
+            <h2>About the Podcast</h2>
+            <p>
+              TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. 
+              We break down complex topics into digestible insights, explore productivity strategies that actually work,
+              and share stories of personal growth from industry leaders.
+              <br><br>
+              Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+            </p>
+          </div>
 
+          <hr />
 
+          <div class="podcast-stats">
+            <div class="stat-block">
+              <h2>150K+</h2>
+              <p>MONTHLY LISTENERS</p>
+            </div>
+            <div class="stat-block">
+              <h2>200+</h2>
+              <p>EPISODES PUBLISHED</p>
+            </div>
+            <div class="stat-block">
+              <h2>4.9 <span class="star-icon"><i class="fa-solid fa-star"></i></span></h2>
+              <p>AVERAGE RATING</p>
+            </div>
+            <div class="stat-block">
+              <h2>50+</h2>
+              <p>INDUSTRY EXPERTS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
