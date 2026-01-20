@@ -489,8 +489,9 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
+
 .podcast-feature-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -521,6 +522,7 @@
   height: 100%;
   border: none;
 }
+
 .podcast-card-content {
   padding: 24px;
 }
@@ -649,7 +651,7 @@
     font-size: 0.9rem;
   }
 
- 
+
   .podcast-host-title {
     font-size: 2rem;
     margin-top: 60px;
@@ -676,9 +678,107 @@
     font-size: 0.95rem;
   }
 
-  
+
   .host-social-links {
     justify-content: center;
   }
 
+}
+
+
+/* Footer Section (Renamed Classes)*/
+
+.site-footer {
+  height: 412px;
+  background-image: url(../assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px;
+}
+
+.site-footer-logo {
+  text-align: center;
+}
+
+.site-footer-logo img {
+  height: 60px;
+  width: 410px;
+}
+
+.site-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  gap: 40px;
+}
+
+.footer-link-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-link-item img {
+  height: 20px;
+  width: 20px;
+}
+
+.footer-link-item span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.site-footer-copy p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin-top: 32px;
+}
+
+/* Responsive Footer (Mobile)*/
+
+@media screen and (max-width: 576px) {
+
+  .site-footer {
+    height: auto;
+    padding: 40px 16px;
+  }
+
+  .site-footer-logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .site-footer-links {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 12px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .footer-link-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .footer-link-item img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-link-item span {
+    font-size: 0.85rem;
+  }
+
+  .site-footer-copy p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
 }
