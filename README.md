@@ -1,146 +1,118 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
+# 🎙️ TechWave Podcast Website
+
+A **modern, responsive podcast landing page** built with **HTML5, CSS3, Flexbox/Grid**, and **Font Awesome icons**.
 
 ---
 
-📅 Deadline For 60 marks: 20th January, 2026 (11:59 pm ⏱️)
+## 🌐 Live Demo
 
-📅 Deadline For 50 marks: 21th January, 2026 (11:59 pm ⏱️)
-
-📅 Deadline For 30 marks: Any time after 21th January.
-
-# TechWave - Podcast Website
-
-## ❓ Common Questions & Answers
-
-**Can I use different images?**
-
-- Yes, you may use any relevant images.
-
-**Can I change the alignment and design freely?**
-
-- No. You must follow the alignment and layout shown in the Figma design.
-
-**Can I change colors?**
-
-- Yes, as long as the colors are relevant and visually consistent.
-
-**Do I need to make the page pixel-perfect?**
-
-- No. You can use your own margin and padding while following the overall structure from Figma.
+👉 [🔗 Visit Live Website](https://kouser-ahamed.github.io/B13-A02-TechWave_Kouser/)
 
 ---
 
-## 📌 Assignment Requirements
+## 📸 Project Demo
 
-### ✅ Main Requirements (50 Marks)
+![TechWave Screenshot 1](assets/TechWaveDemoPic/tech-1.png)  
+![TechWave Screenshot 2](assets/TechWaveDemoPic/tech-2.png)  
+![TechWave Screenshot 3](assets/TechWaveDemoPic/tech-3.png)  
+![TechWave Screenshot 4](assets/TechWaveDemoPic/tech-4.png)  
+![TechWave Screenshot 5](assets/TechWaveDemoPic/tech-5.png)  
 
-### Navbar
-
-- **Desktop/Laptop/Large Device:**
-  - Logo on the Left
-  - Menu Items in the Center (like Figma design)
-  - Gradient Button on the Right
-- **Mobile Device:**
-  - Hidden nav items with hamburger menu icon
-  - Fully responsive navigation
-
-### Banner Section
-
-- **Desktop/Laptop/Large Device:**
-  - Background Image
-  - Center-aligned podcast circle view with visual effects
-  - Relevant heading and descriptive text at center
-  - Two call-to-action buttons below the text
-- **Mobile Device:**
-  - Mobile responsive layout matching Figma design
-
-
-### About Section
-
-- **Desktop/Laptop/Large Device:**
-  - Heading with descriptive text at the top
-  - 4 statistics items displayed in a row with proper styling
-- **Mobile Device:**
-  - 4 statistics items responsive layout (2x2 grid stacked on mobile)
-
-### Why Choose Section
-
-- **Desktop/Laptop/Large Device:**
-  - 5 feature cards layout matching Figma design
-  - Each card contains: icon, title, and description
-- **Mobile Device:**
-  - Fully responsive card layout
-  - Single column layout on mobile devices
-
-### Featured Episodes Section
-
-- **Desktop/Laptop/Large Device:**
-  - 3 featured episode cards layout
-  - Each card includes: title, description, and duration
-  - YouTube video links embedded in cards
-- **Mobile Device:**
-  - Responsive card layout for mobile devices
-
-### Footer Section
-
-- **Desktop/Laptop/Large Device:**
-  - Center-aligned layout with brand and platform information
-  - Copyright information with horizontal line separator
-- **Mobile Device:**
-  - Responsive footer layout maintaining readability
+> Make sure the `assets/TechWaveDemoPic/` folder exists for correct display.
 
 ---
 
-## 🚀 CHALLENGES (10 Marks)
+## 🛠️ Technologies Used
 
-### Host Section
-
-- **Desktop/Laptop/Large Device:**
-  - Image on the left with host name, biography, and social media icons
-  - Professional layout with proper alignment
-- **Mobile Device:**
-  - Responsive layout with stacked design for mobile view
-
-### Additional Challenges
-
-- Implement smooth animations on any buttons or sections for enhanced user experience
-- Minimum 5 commits on GitHub with meaningful commit messages
-- No Lorem Ipsum content - use relevant, meaningful text
-- "New" badge in the podcast circle view positioned exactly as per Figma design
+- ⚡ **HTML5** – Semantic markup for structure  
+- 🎨 **CSS3** – Styling & responsive layouts  
+- 🧩 **Flexbox & Grid** – Flexible & responsive design  
+- 🎵 **Font Awesome Icons** – CDN icon set for UI  
+- 🔤 **Google Fonts – Inter** – Clean typography  
 
 ---
 
-### Responsive Breakpoints
+## ✨ Key Features
 
-- **Small device:** up to 576 px 
-- **Medium Device:** 576px to 992 px (Optional)
-- **Large Device:** above 992 px 
-
-
----
-
-## 🛠️ Tech Stack
-
-- HTML5
-- CSS3/Tailwind CSS
-- No JavaScript
+- 🎯 Hero section with **featured podcast illustration**  
+- 🎧 **Spotify & Subscribe buttons** for direct CTA  
+- 📊 Podcast statistics & **about section**  
+- 📝 **Why Choose TechWave** information grid  
+- ▶️ Featured YouTube episode embeds  
+- 🧑‍💼 Host introduction with social links  
+- 📱 Fully **responsive footer** with platform icons  
 
 ---
 
-## ✅ Submission Checklist
+## 📂 Project Structure
 
-- Figma layout followed correctly
-- Proper alignment and spacing
-- Clean and readable HTML & CSS
-- Each Section are responsive with proper breakpoints
-- Live site deployed
-- Public GitHub repository
+```
+
+TechWave/
+├── assets/
+│   ├── TechWaveDemoPic/
+│   │   ├── tech-1.png
+│   │   ├── tech-2.png
+│   │   ├── tech-3.png
+│   │   ├── tech-4.png
+│   │   └── tech-5.png
+│   ├── microphone.png
+│   ├── spotify.png
+│   └── ...other icons & images
+├── styles/
+│   └── styles.css
+├── index.html
+└── README.md
+
+````
+
+> Maintain folder structure for proper asset linking.
 
 ---
 
-## 📂 Submission Format
+## 💻 Local Setup
 
-- **GitHub Repository Link**
-- **Live Website Link (GitHub Pages)**
+1. **Clone the repo:**
+
+```bash
+git clone https://github.com/kouser-ahamed/B13-A02-TechWave_Kouser.git
+````
+
+2. **Navigate to project folder:**
+
+```bash
+cd B13-A02-TechWave_Kouser
+```
+
+3. **Open in browser:**
+   Double-click `index.html` or use **Live Server** in VSCode.
 
 ---
+
+## 🎓 Learning Outcomes
+
+* ✅ **Responsive Layouts** with Flexbox & Grid
+* ✅ **Semantic HTML** structure for clarity
+* ✅ **External CDN Integration** (Font Awesome, Google Fonts)
+* ✅ **YouTube Video Embeds** inside cards
+* ✅ **Clean, modern UI** for podcasts
+
+---
+
+## 🚀 Future Improvements
+
+* 🌙 Add **dark mode toggle**
+* 🎵 **Audio player** for podcast streaming
+* 🛠️ Backend integration for dynamic episodes
+* 🔍 Episode search & filtering
+* ✨ Subtle scroll & hover animations
+
+---
+
+## 🔗 Useful Links
+
+* 🌐 **Live Demo:** [https://kouser-ahamed.github.io/B13-A02-TechWave_Kouser/](https://kouser-ahamed.github.io/B13-A02-TechWave_Kouser/)
+* 💻 **GitHub Repo:** [https://github.com/kouser-ahamed/B13-A02-TechWave_Kouser](https://github.com/kouser-ahamed/B13-A02-TechWave_Kouser)
+
+---
+
